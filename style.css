@@ -1,4 +1,4 @@
-#flexbox{
+#flexbox {
   display: flex;
   flex-direction: column;
   margin-left: 25%;
@@ -18,17 +18,17 @@ h1 {
 
 }
 
-#thebest{
+#thebest {
   font-family: 'Oswald', sans-serif;
   font-size: 10px;
 
 }
 
-section img{
+section img {
   float: left;
 }
 
-#delicious{
+#delicious {
   width: 100%;
   margin-left: 8px;
 }
@@ -39,7 +39,7 @@ nav {
   margin-top: 10px;
 }
 
-ul{
+ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -50,15 +50,15 @@ ul{
   margin-left: 1px;
 }
 
-#rss{
+#rss {
   padding-left: 8px;
 }
 
-#chocolate{
+#chocolate {
   width: 100%;
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 #print {
@@ -73,7 +73,7 @@ h2 {
   margin-bottom: 7px;
 }
 
-#posted{
+#posted {
   width: 100%;
   font-family: 'Oswald', sans-serif;
   font-size: 13px;
@@ -95,7 +95,94 @@ h2 {
   margin-right: 4px;
 }
 
-#pizza{
+#pizza {
   width: 100%;
   margin-top: 30px;
+}
+
+#paragraph {
+  margin-top: 25px;
+  text-indent: 20pt;
+  font-size: 17pt;
+}
+
+#paperList {
+  margin-top: 35px;
+  width: 100%;
+
+}
+
+#divider {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-image: url(img/hr-img.png);
+  background-repeat: repeat;
+  height: 15px;
+}
+
+#form {
+position: static;
+height: 400px;
+}
+
+#form1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 90px;
+  font-family: 'Patrick Hand', 'Cursive';
+  font-size: 24pt;
+}
+
+#form2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 550px;
+  font-family: 'Patrick Hand', 'Cursive';
+  font-size: 24pt;
+}
+
+#paperList {
+  position: relative;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+#chopped {
+  margin-left: 23px;
+}
+
+#author {
+  margin-top: 20px;
+  display: flex;
+}
+
+#authorPic{
+margin-right: 15px;
+}
+
+#authorName{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 14pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+  background-color: rgba(188,112,88,255);
+  color: white;
+  border: none;
+  float: right;
+  margin-top: 5px;
+  height: 50px;
+  width: 160px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 13pt;
 }
